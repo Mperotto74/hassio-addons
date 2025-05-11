@@ -1,0 +1,14 @@
+name: "Shairport Sync"
+version: "1.0"
+slug: "shairport_sync"
+description: "AirPlay 1 audio receiver"
+startup: services
+boot: auto
+hassio_api: false
+host_network: true
+homeassistant_api: false
+privileged:
+  - SYS_ADMIN
+  - DAC_READ_SEARCH
+options: {}
+schema: {}
